@@ -36,11 +36,11 @@ Basic Art Generator.
 			(e.g. redhat_1_25.png has the name of (redhat_1) and the weight of (25%), always ending in (.png)
 			Weights can be any float so long as it's after the first '_'. So with four assets in a layer, you could do 50, 25, 24.5, .05)
 
-### Prerequisites <a name = "prerequisites"></a>
+### Prerequisites
 
 pip install pillow
 
-### Creating layers and importing assets: <a name = "creating_layers_and_importing_assets:"></a>
+### Creating layers and importing assets:
 
 Included are the folders you'll need. 
 
