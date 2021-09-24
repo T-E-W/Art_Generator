@@ -27,7 +27,7 @@ Basic Art Generator.
 				layers starting with 00, ending in 99.)
 
 		For New or Changing Asset Files:
-		
+
 			Place in desired layer.
 
 			Ensure name is as follows:
@@ -43,17 +43,15 @@ pip install pillow
 ### Creating layers and importing assets:
 
 Included are the folders you'll need. 
----------------------------------------------------------------------------------------
+
 1) Create new layer folders under the given "layers" folder per the naming scheme above.
-	- (e.g. ./layers/shirts_03.  This would create a new layer called Shirts at the third layer.)
+	- e.g. (./layers/shirts_03)  This would create a new layer called Shirts at the third layer.
 
 2) Name/Rename images based on the naming scheme above. Import into desired layer.
-	- (e.g. ./layers/shirts_03/red_shirt_.05.  This would add in a new asset called red_shirt with a weight of .05 in layer 03.)
+	- e.g. (./layers/shirts_03/red_shirt_.05)  This would add in a new asset called red_shirt with a weight of .05 in layer 03.
 
 -Modify the 'config.ini' to set number of images you wish to create. This will only be as many unique images you can create. 
 
--Run.
----------------------------------------------------------------------------------------
-Images will be generated and saved in the given ./images folder.
+-Run
 
-"# Art_Generator" 
+Images will be generated and saved in the given ./images folder.
