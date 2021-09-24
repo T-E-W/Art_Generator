@@ -30,7 +30,7 @@ Basic Art Generator.
 
 			Ensure name is as follows:
 
-			-[assetname)_(WeightXX).png]
+			-[assetname)_[WeightXX].png
 			(e.g. redhat_1_25.png has the name of (redhat_1) and the weight of (25%), always ending in (.png)
 			Weights can be any float so long as it's after the first '_'. So with four assets in a layer, you could do 50, 25, 24.5, .05)
 
