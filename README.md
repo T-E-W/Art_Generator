@@ -12,25 +12,29 @@
 Basic Art Generator.
 
 ## Getting Started <a name = "getting_started"></a>
-Naming Scheme:
-	For New or Changing Layer Folders:
-		Place in layers folder.
 
-		Ensure name is as follows:
+		Naming Scheme:
 
-		[Layername]_[LayerPositionXX]
-		(e.g. background_01 would have the files in this layer placed first in the image, as a background should.
-		ENSURE THE LAYER POSITION IS TWO DIGIT. So with this naming scheme, you could essentially have up to 100
-			layers starting with 00, ending in 99.)
+		For New or Changing Layer Folders:
 
-    For New or Changing Asset Files:
-		Place in desired layer.
+			Place in layers folder.
 
-		Ensure name is as follows:
+			Ensure name is as follows:
 
-		-[assetname)_(WeightXX).png]
-		(e.g. redhat_1_25.png has the name of (redhat_1) and the weight of (25%), always ending in (.png)
-		Weights can be any float so long as it's after the first '_'. So with four assets in a layer, you could do 50, 25, 24.5, .05)
+			[Layername]_[LayerPositionXX]
+			(e.g. background_01 would have the files in this layer placed first in the image, as a background should.
+			ENSURE THE LAYER POSITION IS TWO DIGIT. So with this naming scheme, you could essentially have up to 100
+				layers starting with 00, ending in 99.)
+
+		For New or Changing Asset Files:
+		
+			Place in desired layer.
+
+			Ensure name is as follows:
+
+			-[assetname)_(WeightXX).png]
+			(e.g. redhat_1_25.png has the name of (redhat_1) and the weight of (25%), always ending in (.png)
+			Weights can be any float so long as it's after the first '_'. So with four assets in a layer, you could do 50, 25, 24.5, .05)
 
 ### Prerequisites
 
