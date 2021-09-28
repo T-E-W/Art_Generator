@@ -9,6 +9,8 @@
 
 Basic Art Generator.
 
+From https://github.com/benyaminahmed/nft-image-generator/blob/main/generate.ipynb With Modifications for simplistic layer and asset additions.
+
 ## Getting Started <a name = "getting_started"></a>
 
 		Naming Scheme:
