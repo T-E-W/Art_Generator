@@ -148,7 +148,7 @@ f = open('./metadata/all-traits.json',)
 data = json.load(f)
 
 IMAGES_BASE_URI = "ADD_IMAGES_BASE_URI_HERE"
-PROJECT_NAME = "SPURMS"
+PROJECT_NAME = "SPAWNS"
 
 def getAttribute(key, value):
     return {
